@@ -1,0 +1,139 @@
+body{
+    background-color: #05082b;
+    overflow-x: hidden;
+}
+::placeholder{
+    position: absolute;
+    color: #05082b;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+    left: 20px;
+    right: inherit;
+    top: 18px;
+}
+.gallery{
+    width: 124px; 
+    height: 46px; 
+    left: 780px; 
+    top: 32px; 
+    position: absolute; 
+    color: #C1C1C1; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    word-wrap: break-word;
+}
+.AboutUs{
+    width: 154px; 
+    height: 46px; 
+    left: 930px; 
+    top: 32px; 
+    position: absolute; 
+    color: #C1C1C1; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    word-wrap: break-word;
+}
+.ContactUs{
+    width: 179px; 
+    height: 46px; 
+    left: 1100px; 
+    top: 32px; 
+    position: absolute; 
+    color: #C1C1C1; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    word-wrap: break-word;
+}
+.cnscelogo{
+    width: 170px; 
+    height: 110px;
+}
+.Events{
+    color: #F0A11E; 
+    font-size: 30px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    letter-spacing: 2.00px; 
+    position: absolute;
+    left: 90px;
+    top: 170px;
+    letter-spacing: 4.32px; 
+}
+.textbox{
+    width: 360px;
+    padding-left: 19px; 
+    height: 50px;
+    left: 33px;
+    position: absolute; 
+    background: #ffffff; 
+    border-radius: 24px;
+    font-size: 18px;
+}
+.carousel-container {
+    position: relative;
+    
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Styles for the arrow buttons */
+  .arrow {
+    position: absolute;
+    top: 44px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    backdrop-filter: blur(4px);
+    color: #F0A11E;
+    border: white;
+    cursor: pointer;
+    background-color: transparent;
+    
+  }
+  
+  .left {
+    left: 46%;
+  }
+  
+  .right {
+    right: 46%;
+  }
+  .upcoming-carousel-container {
+    position: relative;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.upcoming-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.upcoming-arrow {
+    position: absolute;
+    top: 130px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    backdrop-filter: blur(4px);
+    color: #F0A11E;
+    border: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.upcoming-left {
+    left: 46%;
+}
+
+.upcoming-right {
+    right: 46%;
+}
